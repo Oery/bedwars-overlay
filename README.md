@@ -1,7 +1,1 @@
-Screenshot :
-
-![Screenshot](https://github.com/Oery/bedwars-overlay/screenshot.png)
-
-## Recommended IDE Setup
-
--   [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+![Screenshot](https://raw.githubusercontent.com/Oery/bedwars-overlay/main/screenshot.png)
