@@ -1,0 +1,287 @@
+:root {
+    /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+    font-family: "Cascadia Code";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: #888888;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body {
+    background-color: rgb(10, 10, 15);
+}
+
+.container {
+    margin: 0;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: 0.75s;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+h1 {
+    text-align: center;
+}
+
+input,
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: #0f0f0f;
+    background-color: #ffffff;
+    transition: border-color 0.25s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #396cd8;
+}
+button:active {
+    border-color: #396cd8;
+    background-color: #e8e8e8;
+}
+
+input,
+button {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    user-select: none;
+    cursor: pointer;
+    text-align: right;
+    padding: 8px 16px;
+    word-wrap: normal;
+}
+
+tr {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    padding: 4px 16px;
+    text-align: right;
+}
+
+.username {
+    width: 200px;
+}
+
+.VIP,
+.VIP_PLUS,
+.EMERALD {
+    color: greenyellow;
+    text-shadow: 0 0 10px greenyellow;
+}
+
+.MVP,
+.MVP_PLUS,
+.DIAMOND {
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
+}
+
+.MVP_PLUS_PLUS,
+.GOLD {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+}
+
+.Non {
+    color: #888888;
+    text-shadow: 0 0 10px #888888;
+}
+
+.STONE {
+    color: #888888;
+    text-shadow: 0 0 10px #888888;
+}
+
+.IRON {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+.SAPPHIRE {
+    color: #00aaaa;
+    text-shadow: 0 0 10px #00aaaa;
+}
+
+.RUBY {
+    color: #aa0000;
+    text-shadow: 0 0 10px #aa0000;
+}
+
+.CRYSTAL {
+    color: #ff55ff;
+    text-shadow: 0 0 10px #ff55ff;
+}
+
+.OPAL {
+    color: #5555ff;
+    text-shadow: 0 0 10px #5555ff;
+}
+
+.AMETHYST {
+    color: #aa00aa;
+    text-shadow: 0 0 10px #aa00aa;
+}
+
+.RAINBOW {
+    /* Text with Rainbow effect and shadow */
+    /* background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0, #f22),
+        color-stop(0.15, #f2f),
+        color-stop(0.3, #22f),
+        color-stop(0.45, #2ff),
+        color-stop(0.6, #2f2),
+        color-stop(0.75, #2f2),
+        color-stop(0.9, #ff2),
+        color-stop(1, #f22)
+    ); */
+    /* background-image: linear-gradient(
+        to right,
+        #f22,
+        #f2f,
+        #22f,
+        #2ff,
+        #2f2,
+        #ff2,
+        #f22
+    ); */
+    background-image: linear-gradient(
+        to right,
+        #fa2d2d,
+        #ffaa00,
+        #ffff21,
+        #31ff31,
+        #55ffff,
+        #ff55ff
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* animation: animatedBackground 10s linear infinite; */
+    animation: animatedBackground 5s linear infinite,
+        animatedShadow 5s linear infinite;
+}
+
+/* @keyframes animatedShadow {
+    0% {
+        filter: drop-shadow(0 0 5px #f22);
+    }
+    15% {
+        filter: drop-shadow(0 0 5px #f2f);
+    }
+    30% {
+        filter: drop-shadow(0 0 5px #22f);
+    }
+    45% {
+        filter: drop-shadow(0 0 5px #2ff);
+    }
+    60% {
+        filter: drop-shadow(0 0 5px #2f2);
+    }
+    75% {
+        filter: drop-shadow(0 0 5px #ff2);
+    }
+    90% {
+        filter: drop-shadow(0 0 5px #f22);
+    }
+    100% {
+        filter: drop-shadow(0 0 5px #f22);
+    }
+} */
+
+/* Animation rainbow background */
+/* @keyframes animatedBackground {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 500px;
+    }
+} */
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 500px 0;
+    }
+}
+
+@keyframes animatedShadow {
+    0% {
+        filter: drop-shadow(0 0 5px #fa2e2e);
+    }
+    14% {
+        filter: drop-shadow(0 0 5px #ffaa00);
+    }
+    28% {
+        filter: drop-shadow(0 0 5px #ffff55);
+    }
+    42% {
+        filter: drop-shadow(0 0 5px #55ff55);
+    }
+    57% {
+        filter: drop-shadow(0 0 5px #55ffff);
+    }
+    71% {
+        filter: drop-shadow(0 0 5px #ff55ff);
+    }
+    100% {
+        filter: drop-shadow(0 0 5px #ff5555);
+    }
+}
